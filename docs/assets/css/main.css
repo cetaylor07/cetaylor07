@@ -2641,15 +2641,14 @@ input, select, textarea {
 		flex-direction: column;
 		align-items: center;
 		text-decoration: none;
-		background-color: #0056b3; /* Change to desired background color */
-		padding: 20px;
-		border-radius: 10px;
 		color: white; /* Text color */
 		transition: background-color 0.3s ease, transform 0.3s ease;
+		border: none;
+		outline: none;
 	}
 	
 	.button-link:hover {
-		background-color: #004494; /* Change to desired hover color */
+		 /* Change to desired hover color */
 		transform: translateY(-5px);
 	}
 	
